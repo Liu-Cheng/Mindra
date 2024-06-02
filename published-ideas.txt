@@ -18,3 +18,68 @@ Abstract: Multiplication is a fundamental operation in many applications, and mu
 Keywaords: Multiplier optimization
 
 Summary: It formulates the multiplier design and leverages RL to optimize the multiplier design.
+
+Title: PrefixRL: Optimization of Parallel Prefix Circuits using Deep Reinforcement Learning
+
+Year: 2022
+
+Abstract: In this work, we present a reinforcement learning (RL) based approach to designing parallel prefix circuits such as adders
+or priority encoders that are fundamental to high-performance digital design. Unlike prior methods, our approach designs solutions tabula rasa
+purely through learning with synthesis in the loop.We design a grid-based state-action representation and an RL environment for constructing legal prefix circuits. Deep Convolutional RL agents trained on this environment produce prefix adder circuits that Pareto-dominate existing baselines with up to 16.0% and 30.2% lower area for the same delay in the 32b and 64b settings respectively. We observe that agents trained with open-source synthesis tools and cell library can design adder circuits that achieve lower area and delay than commercial tool adders in an industrial cell library.
+
+Keywords: prefix circuit optimization
+
+Summary: It presents a parallel prefix circuit optimization with reinforcement learning.
+
+
+Title: Multiplier Optimization via E-Graph Rewriting
+
+Year: 2023
+
+Abstract: Multiplier circuits account for significant resource
+usage in datapath-dominated circuit designs, and RTL designers
+continue to build bespoke hand-crafted multiplication arrays for
+their particular application. The construction of an optimized
+multiplier presents trade-offs between pre-processing to generate
+a smaller array and array reduction. A data structure known as
+an e-graph has recently been applied to datapath optimization,
+where the e-graph’s ability to efficiently explore trade-offs has
+been shown to be crucial. We propose an e-graph based rewriting
+framework to construct optimized multiplier circuits. Such a
+framework can express alternative multiplier representations and
+generate customized circuit designs. We demonstrate that the
+proposed tool, which we call OptiMult, can reduce the latency
+of a squarer by up to 46% and reduce the latency of a standard
+multiplier by up to 9% when compared against logic synthesis
+instantiated components.
+
+Keywords: multiplier optimization
+
+Summary: It leverages e-graph rewriting to optimize the multiplier circuit designs.
+
+
+Title: Understanding the Effects of Permanent Faults in GPU’s Parallelism Management and Control Units
+
+Year: 2023
+
+Abstract: Modern Graphics Processing Units (GPUs) demand life expectancy
+extended to many years, exposing the hardware to aging (i.e., permanent
+faults arising after the end-of-manufacturing test). Hence,
+techniques to assess permanent fault impacts in GPUs are strongly
+required, especially in safety-critical domains.
+This paper presents a method to evaluate permanent faults in the
+GPU’s scheduler and control units, together with the first figures to
+quantify these effects. We inject 5.83x105 permanent faults in the
+gate-level units of a GPU model. Then, we map the observed error
+categories as software errors by instrumenting 13 applications and
+two convolutional neural networks, injecting more than 1.65x105
+permanent errors (1,000 errors per application), reducing evaluation
+times from several years to hundreds of hours. Our results highlight
+that faults in GPU parallelism management units impact software
+execution parameters. Moreover, errors in resource management or
+instructions codes hang the code, while 45% of errors induce silent
+data corruption.
+
+Keywords: GPU reliability, permanent faults
+
+Summary: It evaluates permanent faults in the GPU's scheduler and control units, and analyzes the influence on GPU reliability.
