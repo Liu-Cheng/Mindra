@@ -1,0 +1,20 @@
+Title: GOMIL: Global Optimization of Multiplier by Integer Linear Programming
+
+Year: 2021
+
+Abstract: Multiplier is an important arithmetic circuit. State-of-the-art designs consist of a partial product generator (PPG), a compressor tree (CT), and a carry propagation adder (CPA), with the last two components dominating the area and delay. Existing representative works optimize the CT and the CPA separately, adding a rigid boundary between these two components. In this paper, we break the boundary by proposing GOMIL, a global optimization for multiplier by integer linear programming. Two ILP sub-problems are first formulated to optimize the CT and the prefix structure in the CPA, respectively. Then, they are unified to provide a global optimization to the multiplier. The proposed method is applicable to not only multipliers with the AND gate-based PPG, but also those with Booth encoding-based PPG. The experimental results showed that the multipliers optimized by GOMIL can reduce the power-delay product by up to 71%, compared to the state-of-the-art multipliers developed in industry. The code of GOMIL is made open-source.
+
+Keywords: Multiplier optimizations
+
+Summary: It formulates the multiplier optimization problem as two sub ILP problems and proposes a global multiplier optimization strategy based on the formulation.
+
+
+Title: RL-MUL: Multiplier Design Optimization with Deep Reinforcement Learning
+
+Year: 2023
+
+Abstract: Multiplication is a fundamental operation in many applications, and multipliers are widely adopted in various circuits. However, optimizing multipliers is challenging and non-trivial due to the huge design space. In this paper, we propose RL-MUL, a multiplier design optimization framework based on reinforcement learning. Specifically, we utilize matrix and tensor representations for the compressor tree of a multiplier, based on which the convolutional neural networks can be seamlessly incorporated as the agent network. The agent can learn to adjust the multiplier structure based on a Pareto-driven reward which is customized to accommodate the trade-off between area and delay. Experiments are conducted on different bit widths of multipliers. The results demonstrate that the multipliers produced by RL-MUL dominate all baseline designs in terms of both area and delay. The performance gain of RL-MUL is further validated by comparing the area and delay of processing element arrays using multipliers from RL-MUL and baseline approaches.
+
+Keywaords: Multiplier optimization
+
+Summary: It formulates the multiplier design and leverages RL to optimize the multiplier design.
