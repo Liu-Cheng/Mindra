@@ -83,3 +83,103 @@ data corruption.
 Keywords: GPU reliability, permanent faults
 
 Summary: It evaluates permanent faults in the GPU's scheduler and control units, and analyzes the influence on GPU reliability.
+
+Title: From RTL to CUDA: A GPU Acceleration Flow for RTL Simulation with Batch Stimulus
+
+Year: 2022
+
+Abstract: High-throughput RTL simulation is critical for verifying today’s
+highly complex SoCs. Recent research has explored accelerating
+RTL simulation by leveraging event-driven approaches or partitioning
+heuristics to speed up simulation on a single stimulus. To further
+accelerate throughput performance, industry-quality functional verification
+signoff must explore running multiple stimulus (i.e., batch
+stimulus) simultaneously, either with directed tests or random inputs.
+In this paper, we propose RTLFlow, a GPU-accelerated RTL
+simulation flow with batch stimulus. RTLflow first transpiles RTL
+into CUDA kernels that each simulates a partition of the RTL simultaneously
+across multiple stimulus. It also leverages CUDA Graph
+and pipeline scheduling for efficient runtime execution. Measuring
+experimental results on a large industrial design (NVDLA) with
+65536 stimulus, we show that RTLflow running on a single A6000
+GPU can achieve a 40× runtime speed-up when compared to an
+80-thread multi-core CPU baseline.
+
+Keywords: RTL to CUDA, GPU acceleration
+
+Summary: This work presents a GPU based RTL simulation acceleration framework. It particularly explores batch simulation to make best use of GPUs.
+
+
+Title: Pathfinding Future PIM Architectures by Demystifying a Commercial PIM Technology
+
+Year: 2024
+
+Abstract: Processing-in-memory (PIM) has been explored for
+decades by computer architects, yet it has never seen the light of
+day in real-world products due to its high design overheads and
+lack of a killer application. With the advent of critical memoryintensive
+workloads, several commercial PIM technologies have
+been introduced to the market, ranging from domain-specific PIM
+architectures to more general-purpose PIM architectures. In this
+work, we deepdive into UPMEM’s commercial PIM technology,
+a general-purpose PIM-enabled parallel computing architecture
+that is highly programmable. Our first key contribution is the
+development of a flexible simulation framework for PIM. The
+simulator we developed (aka uPIMulator) enables the compilation
+of UPMEM-PIM source codes into its compiled machine-level
+instructions, which are subsequently consumed by our cyclelevel
+performance simulator. Using uPIMulator, we demystify
+UPMEM’s PIM design through a detailed characterization study.
+Finally, we identify some key limitations of the current UPMEMPIM
+system through our case studies and present some important
+architectural features that will become critical for future PIM
+architectures to support.
+
+Keywords: UPMem, performance analysis, Commercial PIM
+
+Summary: This work mainly explores the use of UPMEM with a set of representative micro benchmarks and analyzes the pros and cons of upmem from the perspective of parallel processing acceleration.
+
+
+Title:
+
+Year:
+
+Abstract:
+
+Keywords:
+
+Summary:
+
+
+
+Title:
+
+Year:
+
+Abstract:
+
+Keywords:
+
+Summary:
+
+
+Title:
+
+Year:
+
+Abstract:
+
+Keywords:
+
+Summary:
+
+
+Title:
+
+Year:
+
+Abstract:
+
+Keywords:
+
+Summary:
