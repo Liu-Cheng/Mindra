@@ -1,25 +1,14 @@
-#
-Basically, we have different sources such as temproal ideas that come up randomly and published ideas read from papers stored in independent files. When we want to creat new ideas, we will check these ideas and let LLM to produce either new questions or new ideas to a specific question roughly, which may help to generate new research ideas. In addition, we will also try to creat more research strategy to guide LLM to generate new ideas systematically. Hope this will work out.
+# About
+In this repo, we mainly collect recent literatures about chip design using LLMs. These literatures are obtained from DAC, ICCAD, DATE, ASP-DAC, TCAD, and Arxiv. In addition, we also have an LLM-driven tools attached allowing flexible query about the recent study about chip design with LLMs. 
 
-# Idea Format
-
-Topic:
-
-Research Questions:
-
-Technical Contributions:
-
-Novelty Level: 1-10
-
-Is it practical: yes/no
-
-Overal evaluation: good/neutral/bad
+# Hardware Generation
 
 
-# New Idea Generation Strategy
-
-To be added :-)
+# Hardware Verification
 
 
-# Authors
-Cheng Liu, email: liucheng@ict.ac.cn 
+# Backend Designs
+
+
+# Contributiors
+Cheng Liu, State Key Lab of Processors, Institute of Computing Technology, Email: liucheng@ict.ac.cn 
